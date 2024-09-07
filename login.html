@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img class="" src="images/logo.png" height="120" width="120" alt="not found">
+            <img class="" src="images/TEXT LOGO.png" height="100" width="350" alt="not found"></a>
+    </header>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/submit_registration" method="POST">
+            <input type="text" id="login" name="login" required placeholder="Login or email">
+        
+            <input type="password" id="password" placeholder="Password" name="password" required>
+        
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <div class="remember">
+            <label for="remember">
+                <input type="checkbox" id="rememberme"> Remember Me
+            </label>
+        </div>
+
+        <div class="forgot-link">
+            <a href="#">Forgot the password?</a>
+        </div>
+        <div class="register-link">
+            Don't have an account? <a href="register.html">Register here</a>
+        </div>
+    </div>
