@@ -23,58 +23,46 @@
     </header>
 
     <main>
-        <div class="main-container">
             <div class="sideBar">
-                <div class="sideBar-container">
                     <img src="./images/profile.jpg" alt="" height="200" width="200">
                     <h1>RudeBaller</h1>
                     <h2>murzik255@gmail.com</h2>
                     <h2>Role: Admin</h2>
                     <h2>💵Balance: 1488$</h2>
-                </div>
             </div>
-            <section>
                 <hr>
                 <div class="myGamesArea">
                     <h1>Purchased Games</h1>
-                    <div class="postContainer">
                             <img src="./images/game%209.jpeg"></a>
                             <h2>MINECRAFT BEDROCK</h2>
                             <img src="./images/game%206.jpeg">
                             <h2>PUBG</h2>
                            <img src="./images/game%2012.jpeg">
                             <h2>BRAWL STARS</h2>
-                    </div>
                 </div>
                 <div class="settingsArea">
                     <hr>
                     <h1>Settings</h1>
-                    <div class="settings">
+
                         <form>
                             <div class="row">
                                 <h2>User name: </h2>
-                                <input type="text" formControlName="username" name="username" required minlength="3">
-
+                                <input type="text" name="username" required minlength="3">
                             </div>
 
                             <div class="row">
                                 <h2>Profile Photo: </h2>
-                                <input type="text" formControlName="image" name="image" required
-                                       pattern="^(https?:\/\/).*\.(jpg|png)$">
-
+                                <input type="file" name="image" required>
                             </div>
 
                             <div class="row">
                                 <h2>Profile Title: </h2>
-                                <textarea formControlName="title" name="title"></textarea>
+                                <textarea name="title"></textarea>
                             </div>
+
                             <button class="submitBtn" type="submit">Save Changes</button>
                         </form>
-                    </div>
                 </div>
-            </section>
-        </div>
-    </main>
     </main>
 
     <footer>
