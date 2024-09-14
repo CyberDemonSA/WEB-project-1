@@ -91,3 +91,65 @@ header {
     margin-right: 10px;
 }
 
+footer {
+    background-color: #1a1a1a;
+}
+
+.footer-box {
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+.footer-icons a {
+    text-decoration: none;
+    margin: 40px;
+    filter: opacity(1) drop-shadow(0 0 0 black);
+}
+.footer-icons a img {
+    height: 50px;
+    width: 50px;
+    color: black;
+    opacity: 0.9;
+}
+
+.footer-icons a:hover {
+    transition: 0.5s;
+}
+.footer-icons a img:hover {
+    accent-color: white;
+    transition: 0.5s;
+    filter: opacity(0.5) drop-shadow(0 0 0 white);
+}
+
+.footer-nav {
+    margin: 0px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p {
+    color: white;
+}
