@@ -49,7 +49,7 @@ header {
 .navbar-box {
     display: flex;
     flex-flow: row nowrap;
-    padding-left: 900px;
+    padding-left: 850px;
 }
 
 .registration {
@@ -75,7 +75,7 @@ header {
 
 .navbar-logo-text {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 32px;
     color: white;
     transition: all .07s ease-in-out;
     padding: 10px 10px;
