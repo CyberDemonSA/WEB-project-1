@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #1a1a1a;
+    height: 100px;
+}
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.headcontainer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo {
+    padding: 20px 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-text {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    transition: all .07s ease-in-out;
+    padding: 10px 10px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-logo-text:hover {
+    color: seagreen;
+}
+
+.navbar-logo-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+body{
+    font-family: "Gill Sans MT";
+}
+body main{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/signup-background.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 420px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    background: #1a1a1a;
+    color: azure;
+    border: 3px solid black;
+    backdrop-filter: blur(20px);
+}
+
+.container h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.container .input-box input{
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    border: none;
+    outline: none;
+    border: 4px solid seagreen;
+    background: black;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: white;
+}
+.container .input-box input::placeholder{
+    color: white;
+}
+.container .login-link{
+    text-align: center;
+    margin: -15px 0 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.container .login-link a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.container .register-link{
+    text-align: center;
+    margin: -15px 0 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.container .register-link a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.container .forgot-link{
+    text-align: left;
+    margin: -15px 0 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.container .forgot-link a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.container .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .07s ease-in-out;
+    cursor: pointer;
+}
+.container .btn:hover{
+    background: seagreen;
+}
+.container .remember input{
+    justify-content: left;
+    font-size: 15px;
+    margin: -15px 0 15px;
+    margin-top: 15px;
+}
+footer {
+    background-color: #1a1a1a;
+}
+
+.footer-box {
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+.footer-icons a {
+    text-decoration: none;
+    margin: 40px;
+    filter: opacity(1) drop-shadow(0 0 0 black);
+}
+.footer-icons a img {
+    height: 50px;
+    width: 50px;
+    color: black;
+    opacity: 0.9;
+}
+
+.footer-icons a:hover {
+    transition: 0.5s;
+}
+.footer-icons a img:hover {
+    accent-color: white;
+    transition: 0.5s;
+    filter: opacity(0.5) drop-shadow(0 0 0 white);
+}
+
+.footer-nav {
+    margin: 0px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p {
+    color: white;
+}
+
