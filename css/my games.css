@@ -215,6 +215,68 @@ main {
     transform: translateY(-10px);
 }
 
+,sidebar {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+ }
+
+
+.sidebar img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    transition: all 1s ease-in-out;
+    background: url(../img/profile.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.sidebar h1{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+
+}
+
+.sidebar h2{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+}
+
+.myGames-Area h2{
+    width: 150px;
+    height: 200px;
+    background: url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    transition: all .07s ease-in-out;
+    border-radius: 10px;
+}
+
+.myGames-Area img{
+    width: 150px;
+    height: 200px;
+    background: url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    transition: all .07s ease-in-out;
+    border-radius: 10px;
+}
 
 
 
