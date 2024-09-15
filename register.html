@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-header">
+            <div class="headcontainer">
+                <a href="main.html" class="navbar-logo">
+                    <img class="navbar-logo-img" src="img/logo.png">
+                    <a href="main.html" class="navbar-logo-text">GameEnforcer</a>
+                </a>
+             </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="/submit_registration" method="POST">
+                <h1>Sign Up</h1>
+                <div class="input-box">
+                    <input type="text" id="login" name="login" required placeholder="Login">
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="cpassword" placeholder="Confirm Password" name="cpassword" required>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Register</button>
+                </div>
+                <div class="login-link">
+                    Already have an account? <a href="login.html">Login here</a>.
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <div class = "footer-icons">
+                <a href = ""><img src="icons/telegram.png"></a>
+                <a href = ""><img src="icons/twitter.png"></a>
+                <a href = ""><img src="icons/youtube.png"></a>
+                <a href = ""><img src="icons/whatsapp.png"></a>
+                <a href = ""><img src="icons/instagram.png"></a>
+            </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2024; Designed by Team: Nursultan, Nurbol, Askar</p>
+        </div>
+    </footer>
+</body>
+</html>
