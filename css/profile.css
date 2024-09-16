@@ -1,3 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #1a1a1a;
+    height: 100px;
+}
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.headcontainer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo {
+    padding: 20px 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-text {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    transition: all .07s ease-in-out;
+    padding: 10px 10px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-logo-text:hover {
+    color: seagreen;
+}
+
+.navbar-logo-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
 body {
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(38,72,44,1) 50%, rgba(0,0,0,1) 100%);
@@ -36,4 +82,113 @@ body {
     font-size: 14px;
     padding: 5px 10px;
     color: #000;
+}
+myGames-Area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.game {
+    text-align: center;
+    justify-content: center;
+    float: left;
+    margin: 10px;
+}
+
+.myGames-Area img {
+    height: 200px;
+    width: 150px;
+    border-radius: 20%;
+    margin: 20px 0;
+}
+
+.game-text {
+    font-size: 16px;
+    color: white;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+}
+
+.footer-box {
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+.footer-icons a {
+    text-decoration: none;
+    margin: 40px;
+    filter: opacity(1) drop-shadow(0 0 0 black);
+}
+.footer-icons a img {
+    height: 50px;
+    width: 50px;
+    color: black;
+    opacity: 0.9;
+}
+
+.footer-icons a:hover {
+    transition: 0.5s;
+}
+.footer-icons a img:hover {
+    accent-color: white;
+    transition: 0.5s;
+    filter: opacity(0.5) drop-shadow(0 0 0 white);
+}
+
+.footer-nav {
+    margin: 0px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p {
+    color: white;
+}
+
+.whatsapp {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.telegramm {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.phone {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 1000px;
 }
