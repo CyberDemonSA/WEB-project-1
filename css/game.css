@@ -206,3 +206,24 @@ footer {
 .footer-bottom p {
     color: white;
 }
+
+.whatsapp {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.telegramm {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.phone {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 1000px;
+}

@@ -36,6 +36,7 @@ header {
 
 .navbar-logo-text:hover {
     color: seagreen;
+    text-decoration: none;
 }
 
 .navbar-logo-img{
