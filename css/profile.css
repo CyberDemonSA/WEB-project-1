@@ -35,7 +35,7 @@ header {
 }
 
 .navbar-logo-text:hover {
-    color: seagreen;
+    color: blue;
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ body {
     object-fit: cover;
     margin: 10px auto;
     border: 10px solid black;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 .student-profile .card h3 {
