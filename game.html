@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/game.css">
 
     <title>Game</title>            
 </head>
-<body>
+<body style="background: url(img/wallpaper.jpg); overflow-x: hidden;">
     <header>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
@@ -49,38 +50,48 @@
 
 
      
-    <main style="background: url(../img/wallpaper.jpg); overflow-x: hidden;">
+    <main class="container mt-5">
 
-        <div class="card mb-3" style="max-width: 540px; background: url(../img/wallpaper.jpg);">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img/game%209.jpeg" class="img-fluid rounded-start" alt="picture">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: white;">Minecraft</h5>
-                  <p class="card-text" style="color: white;">Genre: Adventure</p>
-                  <p class="card-text" style="color: white;">Rate: 5/5</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/game%209.jpeg" class="card-img-top" alt="Minecraft">
+                    <div class="card-body bg-dark text-white">
+                        <h3 class="card-title">Minecraft</h3>
+                        <p class="card-text">Genre: Adventure</p>
+                        <p class="card-text">Rate: 5/5</p>
+                        <button class="btn btn-success w-100">Play Now</button>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-
-        <div class="container-fluid">
-            <h2 style="color: white;">Comments</h2>
-            <p style="color: white;">Nurboll: the best gsme ever</p>
-            <p style="color: white;">Nursultan: not bad</p>
-            <p style="color: white;">Askar: wow, cool</p>
-            <p style="color: white;">Nurboll: good</p>
-            <p ><a href="">show more</a></p>
+            <div class="col-md-8">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4>About the game</h4>
+                        <p>Minecraft is a sandbox game where players can build, mine, battle mobs, and explore a blocky, procedurally-generated 3D world. Players can also collaborate with other players or go on solo adventures, making it a highly flexible and creative gaming experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="comments-section mt-5">
+            <h4 class="mt-4">Add a Comment</h4>
+            <div class="form-group">
+                <textarea id="new-comment" class="form-control bg-dark text-white border-secondary" placeholder="Write your comment here..." rows="3"></textarea>
+                <button id="submit-comment" class="btn btn-success m-3">Submit Comment</button>
+            </div>
+            <h3>Comments</h3>
+            <div id="comments-list" class="list-group">
+                <div class="list-group-item bg-dark text-white comment"><strong>Nurboll:</strong> The best game ever!</div>
+                <div class="list-group-item bg-dark text-white comment"><strong>Nursultan:</strong> Not bad.</div>
+                <div class="list-group-item bg-dark text-white comment"><strong>Askar:</strong> Wow, cool!</div>
+                <div class="list-group-item bg-dark text-white comment"><strong>Nurboll:</strong> Good.</div>
+            </div>
+            <button id="load-more-btn" class="btn btn-secondary mt-3">Show more comments</button>
         </div>
 
     </main>
-
-
-
-
-    <footer>
+    <footer class="mt-5">
         <div class="footer-box" style="background-color: #1a1a1a;">
             <div class = "footer-icons" style="display: flex; justify-content: center;">
                 <a href="" style="margin: 20px;"><img src="icons/telegram.png" width="50px"></a>
@@ -101,5 +112,6 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/game.js"></script>
 </body>
 </html>
