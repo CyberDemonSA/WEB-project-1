@@ -90,6 +90,6 @@ switch (operation) {
         else {
             res = "You are Invalid: It can't divide by zero";}
         break;
-    default: res = "You are Invalid. Please enter (+, -, *, /.)");
+    default: res = "You are Invalid. Please enter (+, -, *, /.)";
 }
 console.log(`Result: ${res}`);
